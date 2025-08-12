@@ -393,72 +393,7 @@
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-/* Dark Theme */
-.navbar.dark {
-    background: var(--navbar-bg, rgba(0, 0, 0, 0.8));
-}
 
-/* Dark Theme - About Section - Light Blue Navbar */
-.navbar.dark[data-active-section="about"] {
-    --navbar-bg: linear-gradient(135deg, rgba(59, 130, 246, 0.15) 0%, rgba(147, 197, 253, 0.15) 100%);
-    border-bottom: 2px solid rgba(59, 130, 246, 0.3);
-}
-
-/* Dark Theme - Skills Section - Light Green Navbar */
-.navbar.dark[data-active-section="skills"] {
-    --navbar-bg: linear-gradient(135deg, rgba(34, 197, 94, 0.15) 0%, rgba(134, 239, 172, 0.15) 100%);
-    border-bottom: 2px solid rgba(34, 197, 94, 0.3);
-}
-
-/* Dark Theme - Work Experience Section - Light Purple Navbar */
-.navbar.dark[data-active-section="work"] {
-    --navbar-bg: linear-gradient(135deg, rgba(147, 51, 234, 0.15) 0%, rgba(196, 181, 253, 0.15) 100%);
-    border-bottom: 2px solid rgba(147, 51, 234, 0.3);
-}
-
-/* Dark Theme - Certification Section - Light Orange Navbar */
-.navbar.dark[data-active-section="certification"] {
-    --navbar-bg: linear-gradient(135deg, rgba(249, 115, 22, 0.15) 0%, rgba(251, 146, 60, 0.15) 100%);
-    border-bottom: 2px solid rgba(249, 115, 22, 0.3);
-}
-
-/* Dark Theme - Education Section - Light Pink Navbar */
-.navbar.dark[data-active-section="education"] {
-    --navbar-bg: linear-gradient(135deg, rgba(236, 72, 153, 0.15) 0%, rgba(244, 114, 182, 0.15) 100%);
-    border-bottom: 2px solid rgba(236, 72, 153, 0.3);
-}
-
-/* Dark Theme - Contact Section - Light Teal Navbar */
-.navbar.dark[data-active-section="contact"] {
-    --navbar-bg: linear-gradient(135deg, rgba(20, 184, 166, 0.15) 0%, rgba(94, 234, 212, 0.15) 100%);
-    border-bottom: 2px solid rgba(20, 184, 166, 0.3);
-}
-
-.navbar.dark .nav-item {
-    color: #fff;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.navbar.dark .nav-item:hover {
-    background: rgba(255, 255, 255, 0.1);
-}
-
-.navbar.dark .mobile-menu {
-    background: rgba(0, 0, 0, 0.95);
-    border-left: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.navbar.dark .mobile-nav-item {
-    color: #fff;
-}
-
-.navbar.dark .mobile-nav-item:hover {
-    background: rgba(255, 255, 255, 0.1);
-}
-
-.navbar.dark .mobile-menu-btn span {
-    background: #fff;
-}
 
 /* Responsive Design */
 @media (max-width: 768px) {

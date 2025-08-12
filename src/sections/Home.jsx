@@ -1,6 +1,5 @@
 import IconCloud from '../components/IconCloud'
-import { ThemeContext } from "../context/ThemeContext"
-import { useEffect, useState, useContext } from "react"
+import { useEffect, useState } from "react"
 import Particles, { initParticlesEngine } from "@tsparticles/react"
 import { loadSlim } from "@tsparticles/slim";
 import { particleNasaTheme } from '../utils/utils'
@@ -11,7 +10,6 @@ import SpaceBg from '../components/SpaceBg';
 import Navbar from '../components/Navbar';
 
 export default function Home() {
-    const { theme, _ } = useContext(ThemeContext);
     const [init, setInit] = useState(false);
 
     useEffect(() => {
@@ -53,7 +51,7 @@ export default function Home() {
                     {init && (
                         <Particles
                             id="tsparticles"
-                            options={particleNasaTheme(theme)}
+                            options={particleNasaTheme("light")}
                         />
                     )}
                 </div>

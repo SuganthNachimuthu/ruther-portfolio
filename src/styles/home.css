@@ -55,9 +55,7 @@
     mask: var(--mask);
 }
 
-.dark .space-container {
-    background-color: var(--space-bg-clr);
-}
+
 
 .malay-img-cont {
     width: 42px;
@@ -135,15 +133,7 @@
     opacity: .1;
 }
 
-.dark .cloud-1,
-.dark .cloud-2 {
-    opacity: 1;
-}
 
-.dark .cloud-3,
-.dark .cloud-4 {
-    opacity: .5;
-}
 
 .outlined-txt {
     -webkit-text-stroke-width: 2px;

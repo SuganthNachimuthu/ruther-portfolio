@@ -1,29 +1,20 @@
-import React, { createContext, useState, useEffect } from "react";
+import React, { createContext, useEffect } from "react";
 
 const ThemeContext = createContext();
 
 const ThemeProvider = ({ children }) => {
-    const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
+    // Always use light theme
+    const theme = "light";
 
     useEffect(() => {
-        const userTheme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
-        if (!localStorage.getItem("theme")) {
-            setTheme(userTheme);
-        }
+        // Ensure body only has light class
+        document.body.classList.remove("dark");
+        document.body.classList.add("light");
+        localStorage.setItem("theme", "light");
     }, []);
 
-    useEffect(() => {
-        document.body.classList.remove("light", "dark");
-        document.body.classList.add(theme);
-        localStorage.setItem("theme", theme);
-    }, [theme]);
-
-    const toggleTheme = () => {
-        setTheme(prevTheme => (prevTheme === "light" ? "dark" : "light"));
-    };
-
     return (
-        <ThemeContext.Provider value={{ theme, toggleTheme }}>
+        <ThemeContext.Provider value={{ theme }}>
             {children}
         </ThemeContext.Provider>
     );

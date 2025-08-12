@@ -1,9 +1,7 @@
-import { useState, useEffect, useContext } from 'react';
-import { ThemeContext } from '../context/ThemeContext';
+import { useState, useEffect } from 'react';
 import '../styles/navbar.css';
 
 const Navbar = () => {
-    const { theme } = useContext(ThemeContext);
     const [isScrolled, setIsScrolled] = useState(false);
     const [activeSection, setActiveSection] = useState('home');
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -60,7 +58,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className={`navbar ${isScrolled ? 'navbar-scrolled' : ''} ${theme}`} data-active-section={activeSection}>
+        <nav className={`navbar ${isScrolled ? 'navbar-scrolled' : ''}`} data-active-section={activeSection}>
             <div className="navbar-container">
 
 

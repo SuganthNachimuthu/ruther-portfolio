@@ -26,27 +26,6 @@
   --space-bg-clr: rgb(39, 39, 72);
 }
 
-
-body.dark {
-  --clr-bg: rgb(13, 17, 23);
-  --clr-txt: #dad9ff;
-  --clr-txt-sec: rgba(240, 246, 252, .5);
-  --clr-bdr: #3d444d;
-  --clr-comp: rgb(33, 40, 48);
-  --clr-comp-hover: rgb(58, 65, 72);
-
-  --text-color: #dad9ff;
-
-  --tooltip-bg: #efefef;
-  --tooltip-txt: #333;
-
-  --clr-accent: #488aec;
-  --clr-accent2: #7896f8;
-  --clr-accent3: #C68FE6;
-  --clr-sec: #E82561;
-
-}
-
 ::-webkit-scrollbar {
   width: 5px;
 }

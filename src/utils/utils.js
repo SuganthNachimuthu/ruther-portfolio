@@ -199,7 +199,7 @@ export const particleNasaTheme = (theme) => ({
             }
         },
         "color": {
-            "value": `${theme === 'dark' ? '#fff' : '#000'}`,
+            "value": "#000",
             "animation": {
                 "h": {
                     "count": 0,
