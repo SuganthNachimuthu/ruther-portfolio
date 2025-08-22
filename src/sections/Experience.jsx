@@ -46,7 +46,7 @@ operations and seamless client-server communication. </p>
                     <p></p>
                     <Timeline>
                         <TimelineItem icon={<Fiverr/>} color="#0745a3">
-                            <h4>Freelance - Full Stack Development Projects</h4>
+                            <h4>Freelance - Full Stack Development Projects For College Students Using Prompt Engineering and My Real-Time Project Skillset</h4>
                             <TimeStamp stamp="2024 - now" />
                             <div className="projects-grid">
                                 <div className="project-card" data-project="AuthEase">
