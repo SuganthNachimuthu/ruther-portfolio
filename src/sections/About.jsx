@@ -28,7 +28,7 @@ export default function About() {
   <a href="https://drive.google.com/file/d/1frEEZGHfxhYL2rRSznoIivzFRcs91AUv/view?usp=sharing" target='_blank'>
     <Button1>
       <SvgIcon icon={Pdf} />
-      Resumei
+      Resume
     </Button1>
   </a>
 </div>
