@@ -25,7 +25,7 @@ export default function About() {
     Passionate about <a>Gen AI</a>, <a>prompt engineering</a>, and leveraging AI to enhance existing systems, I thrive in 
     collaborative environments and am constantly exploring emerging technologies. Let’s innovate together! ✨
   </p>
-  <a href="https://drive.google.com/file/d/1howoBx7mfTUbF5H8MHQSyd4IeSLXxnA3/view?usp=sharing" target='_blank'>
+  <a href="https://drive.google.com/file/d/1frEEZGHfxhYL2rRSznoIivzFRcs91AUv/view?usp=sharing" target='_blank'>
     <Button1>
       <SvgIcon icon={Pdf} />
       Resume
