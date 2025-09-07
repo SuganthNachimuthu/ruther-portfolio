@@ -22,19 +22,12 @@ export default function Experience() {
                     <p>I have worked on a variety of projects, including web development. I have experience working with clients from different parts of the world, and I have developed a strong understanding of the importance of communication and collaboration in remote work environments.</p>
                     <Timeline>
                         <TimelineItem icon={<Upwork />} color="#6fda44">
-                            <h4>Software Engineer Intern, CloudMation</h4>
+                            <h4>Software Developer Intern, SubZero Technologies</h4>
                             <TimeStamp stamp="Mar 2024 - Aug 2024" />
                             <p>- Applied Data Structures and Algorithms (DSA) in Python to solve performance-critical backend problems, improving 
 code efficiency and scalability.<br></br> - Developed and maintained full-stack web applications using React.js (frontend) and Node.js with Express.js 
 (backend), ensuring seamless user experience and optimized API integrations. <br></br> - Collaborated with senior engineers to design RESTful APIs, implement authentication, and manage state with modern 
 React practices (hooks, context API). </p>
-                        </TimelineItem>
-                        <TimelineItem icon={<Fiverr />} color="#1dbf73">
-                            <h4>Full Stack Developer Intern, Neha Solution</h4>
-                            <TimeStamp stamp="May 2025 - Jul 2025" />
-                            <p>-Built and deployed scalable full-stack applications using React.js and Node.js, integrating REST APIs and ensuring 
-responsive, user-friendly interfaces.<br></br> - Secure authentication, optimized database schemas, and enhanced backend performance to support real-time data 
-operations and seamless client-server communication. </p>
                         </TimelineItem>
                         
                     </Timeline>
